@@ -96,6 +96,9 @@ p, li, dd, figcaption, .cards .d, .trap, .note, .answer, .rule {
   -webkit-hyphens: auto;
 }
 
+.sqrt { white-space: nowrap; }
+.sqrt .rad { display: inline-block; border-top: 1.5px solid currentColor; line-height: 1.15; padding: 1px .12em 0 .08em; margin-left: .02em; }
+
 i.v {
   font-style: italic;
   font-family: var(--font-text);
