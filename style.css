@@ -395,7 +395,7 @@ figure.fig {
   min-width: 300px;
 }
 
-.vec {
+div.vec {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -413,7 +413,7 @@ figure.fig {
 h4 { font-family: var(--font-ui); font-weight: 600; font-size: 1rem; margin: 1.2em 0 .3em; }
 .tabpanel > h2 { margin-top: 2em; padding-top: .6em; border-top: 1px solid var(--line); }
 
-.vec svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+div.vec svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
 .g-lbl { font-size: 16px; font-weight: 700; font-style: italic; }
 .g-name { font-style: italic; }
 
