@@ -237,12 +237,11 @@
               el("line", {
                 x1: b.x + 1,
                 y1: b.y - 1,
-                x2: b.x + b.width - 2,
+                x2: b.x + b.width - 1,
                 y2: b.y - 1,
                 class: `s-${c}`,
                 "stroke-width": 1.4
               }, svg);
-              head(svg, b.x + b.width, b.y - 1, 1, 0, `f-${c}`, 6);
             }
           }
           if (v.pre) {

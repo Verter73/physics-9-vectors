@@ -409,12 +409,12 @@ h4 { font-family: var(--font-ui); font-weight: 600; font-size: 1rem; margin: 1.2
 .tabpanel > h2 { margin-top: 2em; padding-top: .6em; border-top: 1px solid var(--line); }
 
 div.vec svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.g-text { paint-order: stroke fill; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round; }
 .g-lbl { font-size: 16px; font-weight: 700; font-style: italic; }
 .g-name { font-style: italic; }
 
 i.vec { position: relative; display: inline-block; padding-top: .18em; }
-i.vec::before { content: ""; position: absolute; left: .08em; right: .05em; top: .06em; border-top: 1.5px solid currentColor; }
-i.vec::after { content: ""; position: absolute; right: -.1em; top: -.1em; border-style: solid; border-width: .16em 0 .16em .3em; border-color: transparent transparent transparent currentColor; }
+i.vec::before { content: ""; position: absolute; left: .05em; right: .05em; top: .06em; border-top: 1.5px solid currentColor; }
 
 .legend {
   font-size: .95rem;
